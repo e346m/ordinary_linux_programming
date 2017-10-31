@@ -23,9 +23,6 @@ int main(int argc, char *argv[]) {
       count--;
       if (count == 5) continue;
     }
-    if (count == 6) {
-
-    }
     if (count <= 5) {
       if (putchar(c) < 0) exit(1);
     }
